@@ -33,7 +33,7 @@ jobs:
           printf "%s\n" "$LLAMA_URL" | \
           llama model download \
           --source meta \
-          --model-id Llama-4-Maverick
+          --model-id Llama-4-Maverick-17B-128E
 
       - name: Upload Model Artifact
         uses: actions/upload-artifact@v4
